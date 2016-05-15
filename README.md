@@ -8,7 +8,7 @@ Provide inbound and outbound MQTT connectivity for zway (razberry). This allows 
 git clone git@github.com:kkckkc/ZWayMqttEndpoint.git
 cd ZwayMqttEndpoint
 node build.js
-cp -R ZwayMqttEndpoint /opt/z-way-server/automation/modules
+cp -R ZwayMqttEndpoint /opt/z-way-server/automation/userModules
 sudo service z-way-server restart
 ```
 
